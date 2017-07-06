@@ -1,0 +1,52 @@
+/*
+
+*/
+/* BASE - Base styles, variables, mixins */
+body {
+  margin: 0px; }
+
+/* MODULES - Individual components */
+.block {
+  height: 30%;
+  color: #ddd;
+  background-color: #282E34;
+  font: "Lato", sans-serif; }
+  .block .row {
+    margin: 0px; }
+  .block p {
+    padding-left: 5%;
+    padding-right: 5%; }
+
+#parallax-one, #parallax-three, #parallax-five {
+  background-image: url("./../images/friends-laughing.jpg"); }
+
+#parallax-two, #parallax-four {
+  background-image: url("./../images/color-qr-code.jpg"); }
+
+.parallax {
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+  .parallax #parallax-two {
+    opacity: 0.65; }
+  .parallax .Iphone {
+    position: relative;
+    opacity: 1;
+    background: url("./../images/iphone.png") center center/cover;
+    height: 820px;
+    width: 420px; }
+
+/* LAYOUTS - Header, footer */
+.header {
+  display: none;
+  background-color: #2999C5;
+  position: fixed;
+  width: 100%;
+  opacity: 1;
+  z-index: 1; }
+  .header h1 {
+    margin: 0px; }
+
+/*# sourceMappingURL=main.css.map */

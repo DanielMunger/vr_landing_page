@@ -1,0 +1,13 @@
+.block {
+  .row {
+    margin: 0px;
+  }
+  p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  height: 30%;
+  color: $text-color;
+  background-color: $block-background-color;
+  font: $font-descriptions;
+}

@@ -1,0 +1,26 @@
+
+#parallax-one, #parallax-three, #parallax-five {
+  background-image: url('./../images/friends-laughing.jpg');
+}
+#parallax-two, #parallax-four {
+  background-image: url('./../images/color-qr-code.jpg');
+}
+.parallax {
+  #parallax-two {
+    opacity: 0.65;
+  }
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  .Iphone {
+    position: relative;
+    opacity: 1;
+    background: url('./../images/iphone.png') center center/cover;
+    height: 820px;
+    width: 420px;
+    // z-index: 1;
+  }
+}

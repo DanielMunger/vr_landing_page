@@ -1,0 +1,11 @@
+.header {
+  display: none;
+  background-color: $header-color;
+  position: fixed;
+  width: 100%;
+  opacity: 1;
+  z-index: 1;
+  h1 {
+    margin: 0px;
+  }
+}

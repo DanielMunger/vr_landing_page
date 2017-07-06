@@ -1,0 +1,15 @@
+/*
+
+*/
+/* BASE - Base styles, variables, mixins */
+@import 'base/_variables.scss';
+@import 'base/_normalize.scss';
+@import 'base/_mixins.scss';
+@import 'base/_base.scss';
+
+/* MODULES - Individual components */
+@import 'modules/_blocks.scss';
+@import 'modules/_parallax-imgs.scss';
+/* LAYOUTS - Header, footer */
+@import 'layouts/_header.scss';
+@import 'layouts/_footer.scss';
