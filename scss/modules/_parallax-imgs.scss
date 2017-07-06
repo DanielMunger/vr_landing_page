@@ -15,12 +15,15 @@
   background-attachment: fixed;
   background-size: cover;
 
-  .Iphone {
+  .phone-wrapper {
     position: relative;
-    opacity: 1;
-    background: url('./../images/iphone.png') center center/cover;
-    height: 820px;
-    width: 420px;
-    // z-index: 1;
+
+    .Iphone {
+      position: absolute;
+      background: url('./../images/iphone.png') center center/cover;
+      height: 80vh;
+      width: 40vh;
+      left: 50px;
+    }
   }
 }
