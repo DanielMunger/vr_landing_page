@@ -34,6 +34,10 @@ var headerFadeIn = function() {
   $('.header').fadeIn(900);
 };
 
-var thirdAnimation = function() {
+var iPhoneSlideIn = function() {
+  $('.IPhone').show('left');
+};
 
+var iPhoneSlideOut = function() {
+    // $('.IPhone').hide('slide');
 };
