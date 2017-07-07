@@ -35,7 +35,8 @@ var headerFadeIn = function() {
 };
 
 var iPhoneSlideIn = function() {
-  $('.IPhone').show('left');
+  // $('.IPhone').show('left');
+  $('.IPhone').addClass('animation-slide-in-left');
 };
 
 var iPhoneSlideOut = function() {
