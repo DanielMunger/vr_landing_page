@@ -28,9 +28,7 @@
       left: 50px ;
 
       &.animation-slide-in-left {
-        transform: translateX(0);
-        transition: 1.5s;
-        // @include animation(0, 0.5s, animation-slide-in-left, ease);
+        @include animation(0, 1.5s, animation-slide-in-left, ease);
 
       }
     }
